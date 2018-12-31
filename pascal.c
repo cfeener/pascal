@@ -10,7 +10,12 @@ void pascal(int n) {
 		for (j = 0; j < i; j++)
 			;
 	}*/
-	printf("So far so good\n");
+
+	int ans = 1, i;
+	for (i = 1; i <= n; i++)
+		ans *= i;
+
+	printf("So far so good: %i\n", ans);
 }
 
 int main (void) {

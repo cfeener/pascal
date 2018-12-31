@@ -1,4 +1,6 @@
 /*
+	Christopher Feener
+	Program completed on Monday, 31 December, 2018
 	Element i,j in Pascal's Triangle = i! / (j! * (i - j)!)
 */
 
